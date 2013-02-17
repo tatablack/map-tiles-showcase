@@ -1,0 +1,17 @@
+extends layout
+
+block content
+    div
+        a(id='sender')='Send a Message'
+        ul(id='receiver')
+
+        div(id='global-controls', class='leaflet-control-zoom leaflet-bar leaflet-control')
+            a(id='global-zoom-in', class='leaflet-control-zoom-in leaflet-bar-part leaflet-bar-part-top', href='#', title='Zoom in')
+                | +
+            a(id='global-zoom-out', class='leaflet-control-zoom-out leaflet-bar-part', href='#', title='Zoom out')
+                | -
+            a(id='global-zoom-reset', class='leaflet-bar-part leaflet-bar-part-bottom', href='#', title='Reset zoom level')
+                | *
+
+
+    div#maps

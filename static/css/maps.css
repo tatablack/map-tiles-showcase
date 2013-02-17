@@ -1,0 +1,21 @@
+#maps {
+    margin-left: 50px;
+    padding-left: 50px;
+    border-left: 3px solid #21479C;
+    overflow: hidden;
+}
+
+#global-controls {
+    margin-left: 9px;
+}
+
+.map {
+    height: 400px;
+    width: 480px;
+    float: left;
+    margin: 0 30px 30px 0;
+}
+
+#sender, #receiver {
+    display: none;
+}
